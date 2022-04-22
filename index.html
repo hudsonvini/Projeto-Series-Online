@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Series - H productions</title>
+    <script type="text/javascript" src="javascript.js"></script>
+    <script src="https://kit.fontawesome.com/3604083fcb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="conteiner">
+
+        <header>
+
+            <div class="logo">
+                <img src="Imagens/User placeholder.gif" alt="">
+            </div>
+
+            <div class="topbar_corpo">
+
+                <li><a href="#">Home</a>
+                <li><a href="#">Series</a>
+                <li><a href="#">Trending</a>  
+                <li><a href="#">Log</a>
+                <li>
+                    <div class="Search">
+                        <label>
+                            <input type="search" name="pequisa" id="" placeholder="Search">   
+                            <i class="fa-solid fa-magnifying-glass" type="submit"></i>
+                        </label>
+                        
+                    </div>
+                </li>
+            </div>
+
+            <div class="botoes">  
+
+                <button onclick="">Sign in</button>
+                <button onclick="">Sign up</button>
+
+            </div>
+
+        </header>
+
+        <section class="sessao_principal">
+            <video witdh="960px" height="540px" src="Video/Open view.mp4" type="video/mp4" autoplay loop muted></video>
+        </section>
+
+        <div class="divisor_temporada">
+            <h1>Temporada 1</h1>
+        </div>
+
+        <section class="conteudo">
+
+            <div class="grid_cards">
+                
+                <div class="card">
+                    <h1>1</h1>
+                    <img width="200px" height="250px" src="/Imagens/Protetor de Episodio.gif" alt="">
+                    <h1 class="titulo">Piloto</h1>
+                    <a class="linkSinopse" onclick="showSinopse(1)">Synopsis</a>
+                    <div class="button_card">
+                        <button onclick="">Watch</button>
+                    </div>
+
+                    <div class="sinopse" id="sinopse1">
+
+                        <div class="sinopse_conteudo">
+
+                            <span onclick="hideSinopse(1)">&times;</span>
+                            <h1>Primeiro episodio</h1>
+                            <h2>Piloto</h2>
+                            <div class="conteudoSinopse">
+                                <p>Rick leva Morty em uma viagem a outra dimensão para procurar sementes especiais. Jerry e Beth discutem a influência de Rick sobre o filho deles.</p>
+                            </div>
+                            <div class="descricaoEp">
+                                <li>Ep: 1
+                                <li>Temporada: 1
+                                <li>Duração: 22 minutos
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                
+                <div class="card">
+                    
+                    <h1>2</h1>
+                    <img width="200px" height="250px" src="/Imagens/Protetor de Episodio.gif" alt="">
+                    <h1 class="titulo">Cãortador de gramas</h1>
+                    <a class="linkSinopse" onclick="showSinopse(2)">Synopsis</a>
+
+                    <div class="button_card">
+                        <button onclick="">Watch</button>
+
+                    </div>
+
+                    <div class="sinopse" id="sinopse2">
+
+                        <div class="sinopse_conteudo">
+
+                            <span onclick="hideSinopse(2)">&times;</span>
+                            <h1>Segundo episodio</h1>
+                            <h2>Cãortador de grama</h2>
+                            <div class="conteudoSinopse">
+                                <p>Rick cria um aparelho para deixar Snuffles mais inteligente, mas a experiência não dá certo. Rick e Morty invadem os sonhos de outra pessoa.</p>  
+                            </div>
+                            <div class="descricaoEp">
+                                <li>Ep: 2
+                                <li>Temporada: 1
+                                <li>Duração: 22 minutos
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+        
+                <div class="card">
+                    
+                    <h1>3</h1>
+                    <img width="200px" height="250px" src="/Imagens/Protetor de Episodio.gif" alt="">
+                    <h1 class="titulo">Parque das Bactérias</h1>
+                    <a class="linkSinopse" onclick="showSinopse(3)">Synopsis</a>
+
+                    <div class="button_card">
+                        <button onclick="">Watch</button>
+
+                    </div>
+
+                    <div class="sinopse" id="sinopse3">
+
+                        <div class="sinopse_conteudo">
+
+                            <span onclick="hideSinopse(3)">&times;</span>
+                            <h1>Terceiro episodio</h1>
+                            <h2>Parque das Bactérias</h2>
+                            <div class="conteudoSinopse">
+                                <p>Morty se vê em um parque temático de doenças infecciosas dentro de um homem. Os pais de Jerry apresentam alguém especial.</p>
+                            </div>
+                            <div class="descricaoEp">
+                                <li>Ep: 3
+                                <li>Temporada: 1
+                                <li>Duração: 22 minutos
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+    
+                <div class="card">
+                    
+                    <h1>4</h1>
+                    <img width="200px" height="250px" src="/Imagens/Protetor de Episodio.gif" alt="">
+                    <h1 class="titulo">Realidade Virtualo</h1>
+                    <a class="linkSinopse" onclick="showSinopse(4)">Synopsis</a>
+
+                    <div class="button_card">
+                        <button onclick="">Watch</button>
+
+                    </div>
+
+                    <div class="sinopse" id="sinopse4">
+
+                        <div class="sinopse_conteudo">
+
+                            <span onclick="hideSinopse(4)">&times;</span>
+                            <h1>Quarto episodio</h1>
+                            <h2>Realidade Virtual</h2>
+                            <div class="conteudoSinopse">
+                                <p>Alienígenas enviam Rick, Morty e Jerry para uma realidade alternativa. Rick tenta tirá-los de lá enquanto Jerry cria um slogan para maçãs.</p>
+                            </div>
+                            <div class="descricaoEp">
+                                <li>Ep: 4
+                                <li>Temporada: 1
+                                <li>Duração: 21 minutos
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+    
+                <div class="card">
+                    
+                    <h1>5</h1>
+                    <img width="200px" height="250px" src="/Imagens/Protetor de Episodio.gif" alt="">
+                    <h1 class="titulo">A Revolta dos Meeseeks</h1>
+                    <a class="linkSinopse" onclick="showSinopse(5)">Synopsis</a>
+
+                    <div class="button_card">
+                        <button onclick="">Watch</button>
+
+                    </div>
+
+                    <div class="sinopse" id="sinopse5">
+
+                        <div class="sinopse_conteudo">
+
+                            <span onclick="hideSinopse(5)">&times;</span>
+                            <h1>Quinto episodio</h1>
+                            <h2>A Revolta dos Meeseeks</h2>
+                            <div class="conteudoSinopse">
+                                <p>Morty não aguenta mais as loucuras de Rick e decide fazer uma aventura mais segura. Jerry chama criaturas estranhas para ajudá-lo no golfe.</p>
+                            </div>
+                            <div class="descricaoEp">
+                                <li>Ep: 5
+                                <li>Temporada: 1
+                                <li>Duração: 21 minutos
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+    
+                <div class="card">
+                    
+                    <h1>6</h1>
+                    <img width="200px" height="250px" src="/Imagens/Protetor de Episodio.gif" alt="">
+                    <h1 class="titulo">A poção do Rick</h1>
+                    <a class="linkSinopse" onclick="showSinopse(6)">Synopsis</a>
+
+                    <div class="button_card">
+                        <button onclick="">Watch</button>
+
+                    </div>
+
+                    <div class="sinopse" id="sinopse6">
+
+                        <div class="sinopse_conteudo">
+
+                            <span onclick="hideSinopse(6)">&times;</span>
+                            <h1>Sexto episodio</h1>
+                            <h2>A poção do Rick</h2>
+                            <div class="conteudoSinopse">
+                                <p>Quando uma poção criada para fazer Morty atrair uma garota infecta toda a Terra, Rick precisa consertar o problema criando outro problema.</p>
+                            </div>
+                            <div class="descricaoEp">
+                                <li>Ep: 6
+                                <li>Temporada: 1
+                                <li>Duração: 21 minutos
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="card">
+                    
+                    <h1>7</h1>
+                    <img width="200px" height="250px" src="/Imagens/Protetor de Episodio.gif" alt="">
+                    <h1 class="titulo">O pequeno Gazorpazorp</h1>
+                    <a class="linkSinopse" onclick="showSinopse(7)">Synopsis</a>
+
+                    <div class="button_card">
+                        <button onclick="">Watch</button>
+
+                    </div>
+
+                    <div class="sinopse" id="sinopse7">
+
+                        <div class="sinopse_conteudo">
+
+                            <span onclick="hideSinopse(7)">&times;</span>
+                            <h1>setimo episodio</h1>
+                            <h2>O pequeno Gazorpazorp</h2>
+                            <div class="conteudoSinopse">
+                                <p>Morty tem um filho com um robô sexual. Rick e Summer decidem visitar o planeta do robô, onde a criança se torna adulta em pouco tempo.</p>
+                            </div>
+                            <div class="descricaoEp">
+                                <li>Ep: 7
+                                <li>Temporada: 1
+                                <li>Duração: 22 minutos
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="card">
+                    
+                    <h1>8</h1>
+                    <img width="200px" height="250px" src="/Imagens/Protetor de Episodio.gif" alt="">
+                    <h1 class="titulo">Realidade alternativa</h1>
+                    <a class="linkSinopse" onclick="showSinopse(8)">Synopsis</a>
+
+                    <div class="button_card">
+                        <button onclick="">Watch</button>
+
+                    </div>
+
+                    <div class="sinopse" id="sinopse8">
+
+                        <div class="sinopse_conteudo">
+
+                            <span onclick="hideSinopse(8)">&times;</span>
+                            <h1>oitavo episodio</h1>
+                            <h2>Realidade alternativa</h2>
+                            <div class="conteudoSinopse">
+                                <p>Frustrado com o que tem para ver na TV, Rick instala um serviço a cabo com atrações de outras dimensões. Todos usam óculos especiais para ver suas versões alternativas.</p>
+                            </div>
+                            <div class="descricaoEp">
+                                <li>Ep: 8
+                                <li>Temporada: 1
+                                <li>Duração: 22 minutos
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="card">
+                    
+                    <h1>9</h1>
+                    <img width="200px" height="250px" src="/Imagens/Protetor de Episodio.gif" alt="">
+                    <h1 class="titulo">Uma loja do diabo</h1>
+                    <a class="linkSinopse" onclick="showSinopse(9)">Synopsis</a>
+
+                    <div class="button_card">
+                        <button onclick="">Watch</button>
+
+                    </div>
+
+                    <div class="sinopse" id="sinopse9">
+
+                        <div class="sinopse_conteudo">
+
+                            <span onclick="hideSinopse(9)">&times;</span>
+                            <h1>Nono episodio</h1>
+                            <h2>Uma loja do diabo</h2>
+                            <div class="conteudoSinopse">
+                                <p>Rick está cético quanto ao novo trabalho de Summer em uma loja comandada pelo diabo. Jerry e Morty discutem se Plutão é um planeta e acabam viajando para lá.</p>
+                            </div>
+                            <div class="descricaoEp">
+                                <li>Ep: 9
+                                <li>Temporada: 1
+                                <li>Duração: 21 minutos
+                            </div>
+
+                        </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+                    
+                <h1>10</h1>
+                <img width="200px" height="250px" src="/Imagens/Protetor de Episodio.gif" alt="">
+                <h1 class="titulo">Contatos imediatos</h1>
+                <a class="linkSinopse" onclick="showSinopse(10)">Synopsis</a>
+
+                <div class="button_card">
+                    <button onclick="">Watch</button>
+
+                </div>
+
+                <div class="sinopse" id="sinopse10">
+
+                    <div class="sinopse_conteudo">
+
+                        <span onclick="hideSinopse(10)">&times;</span>
+                        <h1>Decimo episodio</h1>
+                        <h2>Contatos imediatos</h2>
+                        <div class="conteudoSinopse">
+                            <p>Enquanto tenta desfrutar o café da manhã, Rick é sequestrado por versões alternativas dele mesmo e acaba sendo julgado por crimes contra outros Ricks.</p>
+                        </div>
+                        <div class="descricaoEp">
+                            <li>Ep: 10
+                            <li>Temporada: 1
+                            <li>Duração: 22 minutos
+                        </div>
+
+                    </div>
+            </div>
+
+        </div>
+
+        <div class="card">
+                    
+            <h1>11</h1>
+            <img width="200px" height="250px" src="/Imagens/Protetor de Episodio.gif" alt="">
+            <h1 class="titulo">Negócio arriscado</h1>
+            <a class="linkSinopse" onclick="showSinopse(11)">Synopsis</a>
+
+            <div class="button_card">
+                <button onclick="">Watch</button>
+
+            </div>
+
+            <div class="sinopse" id="sinopse11">
+
+                <div class="sinopse_conteudo">
+
+                    <span onclick="hideSinopse(11)">&times;</span>
+                    <h1>Decimo primeiro episodio</h1>
+                    <h2>Negócio arriscado</h2>
+                    <div class="conteudoSinopse">
+                        <p>Quando Jerry e Beth saem para participar de uma encenação do naufrágio do Titanic, Rick e Summer organizam uma festa que foge do controle.</p>
+                    </div>
+                    <div class="descricaoEp">
+                        <li>Ep: 11
+                        <li>Temporada: 1
+                        <li>Duração: 22 minutos
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </section>  
+
+
+        <footer>
+            <div class="contFooter">
+                <h1>H Productions</h1>
+                <div class="text">
+                    <p>This site was created and is intended for people who do not have the ability to enjoy the content presented on it in a paid way, please if you can pay for the content pay for it</p>
+                    <p>If you want to contribute to the maintenance of this site as you like the initiative <a href="#">Click here</a> to help our team maintain the site</p>
+                    <p>Do not market the content on this site, it's from fan to fan</p>
+                </div>
+                <div class="redesSociais">
+                    <a href="#"><i class="fa-brands fa-youtube fa-2xl" ></i></a>
+                    <a href="https://www.instagram.com/hudson_vini/"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+                    <a href="https://github.com/hudsonvini"><i class="fa-brands fa-github fa-2xl"></i></a>
+                </div>
+ 
+            </div>
+
+            <div class="creator">
+                <div class="ceatorTitulo">
+                    <h1>Create by</h1>
+                </div>
+                <img src="/Imagens/Creator.jpg" alt="">
+                <h2>Hudson Vini</h2>
+                
+            </div>
+
+        </footer>
+
+    </div>  
+    
+    
+
+
+</body>
+
+</html>
