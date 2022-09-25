@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @font-face {
     font-family: 'schwify';
     src: url("/Fontes/get_schwifty.ttf") format('truetype');
@@ -16,6 +18,10 @@
 @font-face {
     font-family: 'The Californication';
     src: url("/Fontes/The\ Californication.ttf") format('truetype');
+}
+
+* {
+    font-family: 'Poppins';
 }
 
 ::-webkit-scrollbar {
@@ -38,7 +44,8 @@ body {
     width: auto;
     height: 100vh;
     background-attachment: fixed;
-    background-image: url("Imagens/Backgrond.jpg");
+    background-color: #282a36;
+    /*background-image: url("Imagens/Backgrond.jpg");*/
 }
 
 header {
@@ -62,7 +69,7 @@ header {
 }
 
 header:hover {
-    box-shadow:  0px 0px 20px 5px rgba(217, 255, 0, 10) ;
+    /*box-shadow:  0px 0px 20px 5px rgba(217, 255, 0, 10) ;*/
     background-color: rgba(234, 255, 0, 0.955);
     border-radius: 300px;
     margin-top: 20px;
@@ -73,6 +80,7 @@ header .topbar_corpo {
     width: 99%;
     justify-content: center;
     align-items: center;
+    
 }
 
 header .logo {
@@ -92,7 +100,6 @@ header .botoes {
     cursor: pointer;
 }
     
-
 .sessao_principal {
     display: flex;
     justify-content: center;
@@ -106,7 +113,6 @@ header .botoes {
     background-color: rgba(18, 255, 239, 0.21);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
-
 }
 
 .topbar_corpo input {
@@ -116,8 +122,6 @@ header .botoes {
     background-color: #03ffee4d;
 }
 
-
-
 .topbar_corpo {
     display: inline-flex;
 }
@@ -125,9 +129,11 @@ header .botoes {
 .topbar_corpo a {
     justify-content: space-between;
     color: rgb(0, 0, 0);
+    font-family: 'Poppins';
+    font-weight: 300;
     list-style: none;
     padding: 30px;
-    font-size: 20px;
+    font-size: 1.1rem;
     transition: 0.2s;
     cursor: pointer;
     text-decoration: none;
@@ -139,14 +145,10 @@ header .botoes {
 }
 
 
-
 .topbar_corpo a:hover {
     font-size: 25px;
     color:  #04ffff;
 }
-    
-
-
 
 .botoes {
     justify-content: space-between;
@@ -164,9 +166,7 @@ video {
     border-radius: 100px;
 }
 
-
 .divisor_temporada {
-    font-family:'schwify';
     margin: 50px;
     display: flex;
     height: auto;
@@ -177,6 +177,7 @@ video {
 
 .divisor_temporada h1 {
     font-size: 100px;
+    font-family:'schwify';
 }
 
 .botoes button {
@@ -216,7 +217,7 @@ video {
     border-radius: 6px;
     justify-content: center;
     align-items: center;
-    box-shadow: 1px 10px 30px 0px #b1d6d1;
+
 }
 
 .card  {
@@ -253,7 +254,7 @@ video {
 }
 
 .card {
-    width: 300px;
+    width: 250px;
     height: 500px;
     background-color: rgb(170, 117, 219);
     padding: 40px;
@@ -276,18 +277,22 @@ video {
 }
 
 .card  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
     border: none;
     backdrop-filter: blur(6px) saturate(166%);
     -webkit-backdrop-filter: blur(7px) saturate(200%);
-    background-color: rgba(2, 255, 238, 0.768);
-    border-radius: 12px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
     border: 1px solid rgba(255, 255, 255, 0.174);
-    padding: 20px;
-    border-radius: 15px;
     transition: 0.2s;
-    width: 200px;
     cursor: pointer;
     box-shadow: 20px 20px 100px 0px #03726b;
+    font-weight: 800;
+    color: rgba(234, 255, 0, 0.955);
 }
 
 .card button:hover {
@@ -296,6 +301,7 @@ video {
 
 .linkSinopse {
     cursor: pointer;
+    color: #fff;
 }
 
 .sinopse {
