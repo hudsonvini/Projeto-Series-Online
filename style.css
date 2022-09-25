@@ -43,9 +43,7 @@ body {
     padding: 0;
     width: auto;
     height: 100vh;
-    background-attachment: fixed;
-    background-color: #282a36;
-    background-image: url("Imagens/Backgrond.jpg");
+    background-color: #21222c;
 }
 
 header {
@@ -73,19 +71,16 @@ header:hover {
     background-color: rgba(234, 255, 0, 0.955);
     border-radius: 300px;
     margin-top: 20px;
-
 }
 
 header .topbar_corpo {
     width: 99%;
     justify-content: center;
     align-items: center;
-    
 }
 
 header .logo {
     width: 20%;
-
 }
 
 header .botoes {
@@ -99,6 +94,15 @@ header .botoes {
     border-radius: 40px;
     cursor: pointer;
 }
+
+.SectinoSuperior {
+    width: 100%;
+    height: 1200px;
+    padding-top: 200px;
+
+    background-attachment: fixed;
+    background-image: url("Imagens/Backgrond.jpg");
+}
     
 .sessao_principal {
     display: flex;
@@ -107,7 +111,6 @@ header .botoes {
     border-radius: 130px 0px 30px;
     width: 980px;
     height: 560px;
-    margin: 150px;
     backdrop-filter: blur(6px) saturate(166%);
     -webkit-backdrop-filter: blur(3px) saturate(166%);
     background-color: rgba(18, 255, 239, 0.21);
@@ -177,6 +180,7 @@ video {
 .divisor_temporada h1 {
     font-size: 100px;
     font-family:'schwify';
+    color: #ffffff60;
 }
 
 .botoes button {
@@ -231,7 +235,11 @@ video {
     display: flex;
     justify-content: center;
     color: rgb(0, 0, 0);
-    
+    transition: .3s;
+}
+
+.card:hover .titulo {
+    color: #e1f603;
 }
 
 .card h1 {
@@ -251,21 +259,22 @@ video {
 }
 
 .card {
-    width: 250px;
+    width: 200px;
     padding: 40px;
     border-radius: 20px;
     margin-bottom: 60px;
     backdrop-filter: blur(6px) saturate(166%);
     -webkit-backdrop-filter: blur(3px) saturate(166%);
-    background-color: #ffffff;
     border-radius: 12px;
+    background-color: rgba(18, 255, 239, 0.21);
     border: 1px solid rgba(255, 255, 255, 0.125);
     overflow: hidden;
     transition: .3s;
 }
 
 .card:hover {
-    background-color: rgba(18, 255, 239, 0.21);
+    background-color: rgba(18, 255, 239, 0.35);
+    box-shadow: 0px 10px 70px #59f1da40;
 }
 
 .card .button_card {
@@ -296,10 +305,14 @@ video {
     box-shadow: 0 5px 10px #00000030;
 }
 
+.card:hover button {
+    background-color: rgb(213, 236, 81);
+}
+
 .card button:hover {
     color: #59f1da;
     background-color: rgb(213, 236, 81);
-    box-shadow: 0px 0px 20px 1px #59f1da;
+    box-shadow: 0px 0px 20px 1px #59f1da80;
 }
 
 .linkSinopse {
@@ -326,7 +339,7 @@ video {
     overflow: scroll;
 }
 
-span {
+.CloseSinopse {
     float: right;
     margin-right: 20px;
     padding: 10px ;
@@ -339,7 +352,7 @@ span {
 
 }
 
-span:hover {
+.CloseSinopse:hover {
     background-color: #03ffee;
 }
 

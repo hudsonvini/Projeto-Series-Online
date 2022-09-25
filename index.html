@@ -14,40 +14,44 @@
 
     <div class="conteiner">
 
-        <header>
+        
+        <section class="SectinoSuperior">
+            <header>
+    
+                <div class="logo">
+                    <img src="Imagens/User placeholder.gif" alt="">
+                </div>
+    
+                <div class="topbar_corpo">
+    
+                    <li><a href="#">Home</a>
+                    <li><a href="#">Series</a>
+                    <li><a href="#">Trending</a>  
+                    <li><a href="#">Log</a>
+                    <li>
+                        <div class="Search">
+                            <label>
+                                <input type="search" name="pequisa" id="" placeholder="Search">   
+                                <i class="fa-solid fa-magnifying-glass" type="submit"></i>
+                            </label>
+                            
+                        </div>
+                    </li>
+                </div>
+    
+                <div class="botoes">  
+    
+                    <button onclick="">Sign in</button>
+                    <button onclick="">Sign up</button>
+    
+                </div>
+    
+            </header>
 
-            <div class="logo">
-                <img src="Imagens/User placeholder.gif" alt="">
-            </div>
-
-            <div class="topbar_corpo">
-
-                <li><a href="#">Home</a>
-                <li><a href="#">Series</a>
-                <li><a href="#">Trending</a>  
-                <li><a href="#">Log</a>
-                <li>
-                    <div class="Search">
-                        <label>
-                            <input type="search" name="pequisa" id="" placeholder="Search">   
-                            <i class="fa-solid fa-magnifying-glass" type="submit"></i>
-                        </label>
-                        
-                    </div>
-                </li>
-            </div>
-
-            <div class="botoes">  
-
-                <button onclick="">Sign in</button>
-                <button onclick="">Sign up</button>
-
-            </div>
-
-        </header>
-
-        <section class="sessao_principal">
-            <video witdh="960px" height="540px" src="Video/Open view.mp4" type="video/mp4" autoplay loop muted></video>
+            <!--Trailer-->
+            <section class="sessao_principal">
+                <video witdh="960px" height="540px" src="Video/Open view.mp4" type="video/mp4" autoplay loop muted></video>
+            </section>
         </section>
 
         <div class="divisor_temporada">
@@ -59,7 +63,7 @@
             <div class="grid_cards">
                 
                 <div class="card">
-                    <h1>1</h1>
+                    
                     <img   src="https://br.web.img3.acsta.net/pictures/17/11/06/14/13/5164749.jpg?coixp=50&coiyp=47" alt="">
                     <h1 class="titulo">Piloto</h1>
                     <a class="linkSinopse" onclick="showSinopse(1)">Synopsis</a>
@@ -71,7 +75,7 @@
 
                         <div class="sinopse_conteudo">
 
-                            <span onclick="hideSinopse(1)">&times;</span>
+                            <span class="CloseSinopse" onclick="hideSinopse(1)">&times;</span>
                             <h1>Primeiro episodio</h1>
                             <h2>Piloto</h2>
                             <div class="conteudoSinopse">
@@ -90,7 +94,6 @@
                 </div>
                 
                 <div class="card"> 
-                    <h1>2</h1>
                     <img   src="https://br.web.img3.acsta.net/pictures/17/11/06/14/13/5164749.jpg?coixp=50&coiyp=47" alt="">
                     <h1 class="titulo">Cãortador de gramas</h1>
                     <a class="linkSinopse" onclick="showSinopse(2)">Synopsis</a>
@@ -103,7 +106,7 @@
 
                         <div class="sinopse_conteudo">
 
-                            <span onclick="hideSinopse(2)">&times;</span>
+                            <span class="CloseSinopse" onclick="hideSinopse(2)">&times;</span>
                             <h1>Segundo episodio</h1>
                             <h2>Cãortador de grama</h2>
                             <div class="conteudoSinopse">
@@ -123,8 +126,6 @@
                 </div>
         
                 <div class="card">
-                    
-                    <h1>3</h1>
                     <img  src="https://br.web.img3.acsta.net/pictures/17/11/06/14/13/5164749.jpg?coixp=50&coiyp=47" alt="">
                     <h1 class="titulo">Parque das Bactérias</h1>
                     <a class="linkSinopse" onclick="showSinopse(3)">Synopsis</a>
@@ -138,7 +139,7 @@
 
                         <div class="sinopse_conteudo">
 
-                            <span onclick="hideSinopse(3)">&times;</span>
+                            <span class="CloseSinopse" onclick="hideSinopse(3)">&times;</span>
                             <h1>Terceiro episodio</h1>
                             <h2>Parque das Bactérias</h2>
                             <div class="conteudoSinopse">
@@ -172,7 +173,7 @@
 
                         <div class="sinopse_conteudo">
 
-                            <span onclick="hideSinopse(4)">&times;</span>
+                            <span class="CloseSinopse" onclick="hideSinopse(4)">&times;</span>
                             <h1>Quarto episodio</h1>
                             <h2>Realidade Virtual</h2>
                             <div class="conteudoSinopse">
@@ -193,7 +194,7 @@
                 <div class="card">
                     
                     <h1>5</h1>
-                    <img   src="https://br.web.img3.acsta.net/pictures/17/11/06/14/13/5164749.jpg?coixp=50&coiyp=47" alt="">
+                    <img  src="https://br.web.img3.acsta.net/pictures/17/11/06/14/13/5164749.jpg?coixp=50&coiyp=47" alt="">
                     <h1 class="titulo">A Revolta dos Meeseeks</h1>
                     <a class="linkSinopse" onclick="showSinopse(5)">Synopsis</a>
 
@@ -206,7 +207,7 @@
 
                         <div class="sinopse_conteudo">
 
-                            <span onclick="hideSinopse(5)">&times;</span>
+                            <span class="CloseSinopse" onclick="hideSinopse(5)">&times;</span>
                             <h1>Quinto episodio</h1>
                             <h2>A Revolta dos Meeseeks</h2>
                             <div class="conteudoSinopse">
@@ -240,7 +241,7 @@
 
                         <div class="sinopse_conteudo">
 
-                            <span onclick="hideSinopse(6)">&times;</span>
+                            <span class="CloseSinopse" onclick="hideSinopse(6)">&times;</span>
                             <h1>Sexto episodio</h1>
                             <h2>A poção do Rick</h2>
                             <div class="conteudoSinopse">
@@ -274,7 +275,7 @@
 
                         <div class="sinopse_conteudo">
 
-                            <span onclick="hideSinopse(7)">&times;</span>
+                            <span class="CloseSinopse" onclick="hideSinopse(7)">&times;</span>
                             <h1>setimo episodio</h1>
                             <h2>O pequeno Gazorpazorp</h2>
                             <div class="conteudoSinopse">
@@ -295,7 +296,7 @@
                 <div class="card">
                     
                     <h1>8</h1>
-                    <img   src="https://br.web.img3.acsta.net/pictures/17/11/06/14/13/5164749.jpg?coixp=50&coiyp=47" alt="">
+                    <img src="https://br.web.img3.acsta.net/pictures/17/11/06/14/13/5164749.jpg?coixp=50&coiyp=47" alt="">
                     <h1 class="titulo">Realidade alternativa</h1>
                     <a class="linkSinopse" onclick="showSinopse(8)">Synopsis</a>
 
@@ -308,7 +309,7 @@
 
                         <div class="sinopse_conteudo">
 
-                            <span onclick="hideSinopse(8)">&times;</span>
+                            <span class="CloseSinopse" onclick="hideSinopse(8)">&times;</span>
                             <h1>oitavo episodio</h1>
                             <h2>Realidade alternativa</h2>
                             <div class="conteudoSinopse">
@@ -342,7 +343,7 @@
 
                         <div class="sinopse_conteudo">
 
-                            <span onclick="hideSinopse(9)">&times;</span>
+                            <span class="CloseSinopse" onclick="hideSinopse(9)">&times;</span>
                             <h1>Nono episodio</h1>
                             <h2>Uma loja do diabo</h2>
                             <div class="conteudoSinopse">
@@ -362,7 +363,7 @@
             <div class="card">
                     
                 <h1>10</h1>
-                <img   src="https://br.web.img3.acsta.net/pictures/17/11/06/14/13/5164749.jpg?coixp=50&coiyp=47" alt="">
+                <img src="https://br.web.img3.acsta.net/pictures/17/11/06/14/13/5164749.jpg?coixp=50&coiyp=47" alt="">
                 <h1 class="titulo">Contatos imediatos</h1>
                 <a class="linkSinopse" onclick="showSinopse(10)">Synopsis</a>
 
@@ -375,7 +376,7 @@
 
                     <div class="sinopse_conteudo">
 
-                        <span onclick="hideSinopse(10)">&times;</span>
+                        <span class="CloseSinopse" onclick="hideSinopse(10)">&times;</span>
                         <h1>Decimo episodio</h1>
                         <h2>Contatos imediatos</h2>
                         <div class="conteudoSinopse">
@@ -408,7 +409,7 @@
 
                 <div class="sinopse_conteudo">
 
-                    <span onclick="hideSinopse(11)">&times;</span>
+                    <span class="CloseSinopse" onclick="hideSinopse(11)">&times;</span>
                     <h1>Decimo primeiro episodio</h1>
                     <h2>Negócio arriscado</h2>
                     <div class="conteudoSinopse">
