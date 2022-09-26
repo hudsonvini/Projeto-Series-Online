@@ -225,6 +225,19 @@ video {
     list-style: none;
 }
 
+.NumberEp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: -1rem;
+    right: calc(50% - 30px);
+    border-radius: 50%;
+    background-color: #e1f603;
+}
+
 .card .titulo {
     text-align: center;
 }
@@ -268,7 +281,6 @@ video {
     border-radius: 12px;
     background-color: rgba(18, 255, 239, 0.21);
     border: 1px solid rgba(255, 255, 255, 0.125);
-    overflow: hidden;
     transition: .3s;
 }
 
